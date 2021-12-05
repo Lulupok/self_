@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const exampleEmbed = new Discord.RichEmbed()
-const token2 = 'OTE3MTExNDU0MTg3MDI0NDE2.Yaz8-Q.CJ_b5m43psTJVGzeKfaupFbKWLU'
+const token2 = 'ODc1NDE3NzQ3OTA1OTc0Mjgy.Ya0c0A.4Mp54ai3gAB0MZxjzjX7hu1nAOU'
 const prefix = "$";
 
 bot.on('ready', function() {
@@ -79,7 +79,7 @@ bot.on('message', message => {
             await message.react("👎")
         })
    
-    }else if(message.content.startsWith(prefix+'spamallmp')) {
+    }else if(message.content.startsWith(prefix+'spamardm')) {
         let msg1 = message.content.slice(10);
         message.delete();
         for (pas=0; pas< 10; pas++) {
