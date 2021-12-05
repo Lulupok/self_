@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const exampleEmbed = new Discord.RichEmbed()
-const token2 = 'YOUR TOKEN HERE'
+const token2 = 'OTE3MTExNDU0MTg3MDI0NDE2.Yaz8-Q.CJ_b5m43psTJVGzeKfaupFbKWLU'
 const prefix = "$";
 
 bot.on('ready', function() {
